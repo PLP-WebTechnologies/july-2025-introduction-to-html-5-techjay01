@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML5 + Accessibility & SEO Basics</title>
+    <meta name="description" content="A well-structured web page for demonstrating HTML5 semantic tags, accessibility, and SEO best practices.">
+    <meta name="author" content="Joshua Mbamara">
+</head>
+<body>
+    <header>
+        <h1>HTML5 + Accessibility & SEO Basics</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#assignments">Assignments</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="assignments" aria-labelledby="assignments-heading">
+            <h2 id="assignments-heading">Assignments Overview</h2>
+            <p>
+                Welcome to the PLP Academy Assignments page. Here you will find a list of assignments designed to help you learn and practice essential web development skills using HTML5.
+            </p>
+            <article aria-labelledby="assignment1-heading">
+                <h3 id="assignment1-heading">Assignment 1: HTML5 Basics</h3>
+                <p>
+                    Learn the fundamentals of HTML5 by creating a simple, accessible, and SEO-friendly web page using semantic elements.
+                </p>
+                <figure>
+                    <img src="https://via.placeholder.com/400x200.png?text=Sample+HTML5+Page" alt="Screenshot of a sample HTML5 web page demonstrating semantic structure and accessibility features." width="400" height="200">
+                    <figcaption>Figure 1: Example of a simple, accessible HTML5 web page layout.</figcaption>
+                </figure>
+            </article>
+            <article aria-labelledby="assignment2-heading">
+                <h3 id="assignment2-heading">Assignment 2: Semantic Structure</h3>
+                <p>
+                    Practice organizing content with semantic tags to improve readability and accessibility for all users.
+                </p>
+                <p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank" rel="noopener" aria-label="Learn more about HTML5 semantic elements on MDN">Learn more about HTML5 semantic elements</a>
+                </p>
+            </article>
+        </section>
+
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About PLP Academy</h2>
+            <p>
+                PLP Academy is dedicated to providing high-quality programming education. Our assignments are crafted to build foundational skills in web development.
+            </p>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <address>
+                For questions or feedback, please email us at 
+                <a href="mailto:info@plpacademy.example" aria-label="Email PLP Academy">info@plpacademy.example</a>.
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PLP Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
